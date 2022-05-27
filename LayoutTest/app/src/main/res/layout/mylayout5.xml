@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:text="기준" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/btn_base"
+        android:layout_alignTop="@id/btn_base"
+        android:text="왼" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/btn_base"
+        android:layout_alignTop="@id/btn_base"
+        android:text="오른" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/btn_base"
+        android:layout_alignLeft="@id/btn_base"
+        android:text="위" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_base"
+        android:layout_alignRight="@id/btn_base"
+        android:text="아래" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btn_base"
+        android:layout_toRightOf="@id/btn_base"
+        />
+
+
+</RelativeLayout>

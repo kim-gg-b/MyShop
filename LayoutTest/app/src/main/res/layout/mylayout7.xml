@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="0,3"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button android:text="이름" style="@style/title_style"  />
+        <Button android:text="국어" style="@style/title_style" />
+        <Button android:text="영어" style="@style/title_style"  />
+        <Button android:text="합계" style="@style/title_style"  />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="신경화" style="@style/row_style"/>
+        <TextView android:text="100" style="@style/row_style"/>
+        <TextView android:text="100" style="@style/row_style"/>
+        <TextView android:text="200" style="@style/row_style"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="민기홍" style="@style/row_style"/>
+        <TextView android:text="100" style="@style/row_style"/>
+        <TextView android:text="95" style="@style/row_style"/>
+        <TextView android:text="195" style="@style/row_style"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="합계" style="@style/row_style"
+            android:layout_span="3"/>
+        <TextView android:text="395" style="@style/row_style"/>
+
+    </TableRow>
+
+</TableLayout>

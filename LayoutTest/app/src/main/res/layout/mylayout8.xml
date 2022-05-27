@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미니 계산기"
+        style="@style/row_style"
+        android:background="#8BC34A"    />
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button android:text="1" style="@style/calc_style"/>
+            <Button android:text="2" style="@style/calc_style"/>
+            <Button android:text="3" style="@style/calc_style"/>
+            <Button android:text="+" style="@style/calc_style"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="4" style="@style/calc_style"/>
+            <Button android:text="5" style="@style/calc_style"/>
+            <Button android:text="6" style="@style/calc_style"/>
+            <Button android:text="-" style="@style/calc_style"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="7" style="@style/calc_style"/>
+            <Button android:text="8" style="@style/calc_style"/>
+            <Button android:text="9" style="@style/calc_style"/>
+            <Button android:text="*" style="@style/calc_style"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="0" style="@style/calc_style"/>
+            <Button android:text="CLEAR"
+                android:layout_span="2"
+                style="@style/calc_style"/>
+            <Button android:text="/" style="@style/calc_style"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="클릭후 입력" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="클릭후 입력" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="확인" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bus_stop" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
