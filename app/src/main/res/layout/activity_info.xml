@@ -18,12 +18,12 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:layout_below="@id/title_info"
+        android:id="@+id/img_info"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@id/title_info"
         android:layout_centerHorizontal="true"
-        android:id="@+id/img_info"/>
+        android:src="@drawable/ic_launcher_background" />
     <TextView
         android:layout_below="@id/img_info"
         android:layout_centerHorizontal="true"
